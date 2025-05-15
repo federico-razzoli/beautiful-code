@@ -26,6 +26,27 @@ safeDivide x y = Just (x / y)
 * Lastly, we implement the division for all other cases.
 
 
+## We're in a List Comprehension
+
+Given a chess board, find all the possible positions of the two kings.
+
+```
+files = ['a'..'h']
+ranks = ['1'..'8']
+
+kingPositions = 
+    -- output function: a string indicating the kings coordinates
+    [ "White King at " ++ [wf, wr] ++ ", Black King at " ++ [bf, br]
+    -- nested list comprehensions compute all the combinations as tuples
+    -- the Pos variables match each combination (as-pattern)
+    | whitePos@(wf, wr) <- [(f, r) | f <- files, r <- ranks]
+    , blackPos@(bf, br) <- [(f, r) | f <- files, r <- ranks]
+    # make sure that the kings aren't in the same square
+    , whitePos /= blackPos
+    ]
+```
+
+
 ## Fibonacci
 
 ```
