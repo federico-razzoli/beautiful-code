@@ -13,6 +13,19 @@ unlikely. It's more likely that you had too much booze. However, we can say that
 `Maybe Nessie`. It could be `Just Nessie`, or it could be `Nothing`.
 
 
+## Nothing
+
+```
+safeDivide :: Double -> Double -> Maybe Double
+safeDivide _ 0 = Nothing
+safeDivide x y = Just (x / y)
+```
+
+* First, we define `safeDivide` signature.
+* Then, we implement the division by zero. `_` is a blackhole variable for values we don't care about. `Nothing` is a beatiful value to return when the result is undefined.
+* Lastly, we implement the division for all other cases.
+
+
 ## Fibonacci
 
 ```
