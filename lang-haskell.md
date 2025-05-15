@@ -42,5 +42,18 @@ yes. But it's ok because Haskell, unlike the Forth Bridges builders, is lazy.
 
 ## Factorial
 
+```
+factorial :: Integer -> Integer
+factorial a
+  | a < 0     = error "Did you really think I wouldn't notice that a is negative?"
+  | otherwise = foldl' (*) 1 [1..a]
+```
 
+The unbeautiful thing here is the `foldl'` funciton name, but it is what it is, and it
+follows the Haskell naming style. It means "folding from the left", andthe apostroph means
+that the function is strict (not lazy).
+
+We could have used `product` instead, but this function is lazy. As a consequence, for
+high values of `a` it is subject to stack overflow. If you don't know what this means, ask
+Stack Overflow.
 
