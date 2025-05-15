@@ -36,6 +36,11 @@ fibonacci a
     fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
 ```
 
-Instead of a loop, we use recursion passing `(tail fibs)`. Which is a function on an infinite list,
+Instead of a loop, we use recursion passing `(tail fibs)`. Which is an infinite list passed to a function,
 yes. But it's ok because Haskell, unlike the Forth Bridges builders, is lazy.
+
+
+## Factorial
+
+
 
