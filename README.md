@@ -1,5 +1,4 @@
 # beautiful-code
-Beautiful code snippets
 
 Code should be beautiful, when possible. Remember: developers spend a lot of time looking at code,
 typing it, designing it. The aesthetics of code improve the quality of their life. It inspires them
