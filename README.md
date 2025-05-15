@@ -8,6 +8,13 @@ and solutions more in depth.
 
 In this repository I'm collecting code that seems to me beautiful.
 
+
+## Table of Contents
+
+* [SQL](lang-sql.md)
+* [Haskell](lang-haskell.md)
+
+
 ## Copyright and License
 
 This work is released under the terms of the [Do What The Fuck You Want To Public License](LICENSE),
