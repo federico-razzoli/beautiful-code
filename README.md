@@ -16,6 +16,11 @@ In this repository I'm collecting code that seems to me beautiful.
 
 ## Copyright and License
 
+Legislations mostly forbid public domain, so I must retain intellectual property on this work.
+For a definition of property that doesn't include the right to give it away.
+
+Copyright: Federico Razzoli - 2025
+
 This work is released under the terms of the [Do What The Fuck You Want To Public License](LICENSE),
 version 2.
 
