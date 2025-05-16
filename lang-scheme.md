@@ -21,6 +21,18 @@ But we can implement it in a less beautiful, more flexible way, accepting a list
 ```
 
 
+## Variadic Functions
+
+Let's use a variadic function to empathise with HAL9000:
+
+```
+(define (count-args . args)
+  (if (null? args)
+      (error "No arguments... Dave, my mind is going...")
+      (length args)))
+```
+
+
 ## Reversing a List
 
 ```
