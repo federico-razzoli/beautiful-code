@@ -11,6 +11,9 @@ SELECT NULL IS UNKNOWN;
 
 `IS UNKNOWN` is a synonym for `IS NULL`.
 
+Unbeautiful note: `UNKNOWN` is not a synonym for `NULL`. And `NULL` semantics only suggest an unknown value
+in some cases.
+
 
 ## Fibonacci
 
