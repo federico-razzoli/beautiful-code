@@ -26,6 +26,22 @@ safeDivide x y = Just (x / y)
 * Lastly, we implement the division for all other cases.
 
 
+## Composition and Application
+
+The composition and applicaiton operators are defined in this way:
+
+```
+(f . g) x = f (g x)
+f $ x = f x
+```
+
+Composition means execution of one-argument functions sequentially, similarly to the Bash' pipe operator.
+In Haskell, a multi-argument function is seen as a composition of one-argument functions.
+
+Application is simply passing an argument to a function. The above operator exists to avoid parenthesis,
+which are unpopular amongst Haskell developers, probably because they used to be Lisp developers.
+
+
 ## We're in a List Comprehension
 
 Given a chess board, find all the possible positions of the two kings.

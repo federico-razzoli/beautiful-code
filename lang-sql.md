@@ -1,4 +1,4 @@
-# SQL
+# Beautiful SQL
 
 These queries are tested on MariaDB. Where possible, I try to make them fairly standard.
 
