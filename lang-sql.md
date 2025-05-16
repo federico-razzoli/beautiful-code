@@ -44,3 +44,28 @@ SELECT n AS natural_number, current_value AS fibonacci_number
 ;
 ```
 
+
+## Trees
+
+Traverse a tree up to the root:
+
+```
+WITH RECURSIVE path_to_root AS (
+    (
+    -- starting node
+    SELECT node_id, parent_id, 0 AS level
+        FROM tree
+        WHERE node_id = ?
+    ) UNION ALL (
+    -- recursively query the next levels
+    SELECT t.node_id, t.parent_id, p.level + 1 AS level
+        FROM tree t
+        JOIN path_to_root p
+            ON t.node_id = p.parent_id
+)
+SELECT node_id 
+    FROM path_to_root
+    ORDER BY level
+;
+```
+
