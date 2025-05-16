@@ -10,9 +10,9 @@ In this repository I'm collecting code that seems to me beautiful.
 
 ## Table of Contents
 
-* [SQL](lang-sql.md)
-* [Haskell](lang-haskell.md)
-* [Scheme](lang-scheme.md)
+* __Beautiful [SQL](lang-sql.md)__
+* __Beautiful [Haskell](lang-haskell.md)__
+* __Beautiful [Scheme](lang-scheme.md)__
 
 
 ## Copyright and License
