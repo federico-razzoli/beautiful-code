@@ -23,7 +23,7 @@ But we can implement it in a less beautiful, more flexible way, accepting a list
 
 ## Variadic Functions
 
-Let's use a variadic function to empathise with HAL9000:
+A variadic function without arguments is like HAL9000 at the end of its life:
 
 ```
 (define (count-args . args)
