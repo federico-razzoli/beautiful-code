@@ -1,5 +1,26 @@
 # Beautiful Scheme
 
+## Composition
+
+Scheme doesn't have a composition function, but we can define it:
+
+```
+(define (compose f g)
+  (lambda (x)
+    (f (g x))))
+```
+
+This is beautifully, strictly functional: a function takes exactly one argument.
+
+But we can implement it in a less beautiful, more flexible way, accepting a list of arguments:
+
+```
+(define (compose f g)
+  (lambda args
+    (f (apply g args))))
+```
+
+
 ## Reversing a List
 
 ```
