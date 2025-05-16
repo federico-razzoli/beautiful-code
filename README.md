@@ -12,6 +12,7 @@ In this repository I'm collecting code that seems to me beautiful.
 
 * [SQL](lang-sql.md)
 * [Haskell](lang-haskell.md)
+* [Scheme](lang-scheme.md)
 
 
 ## Copyright and License
