@@ -29,13 +29,13 @@ WITH RECURSIVE fibonacci(n, current_value, next_value) AS (
             1 AS next_value
     ) UNION ALL (
         SELECT 
-            n + 1, 
-            next_value, 
-            current_value + next_value
-        FROM 
-            fibonacci
-        -- limit the number of rows (the series is infinite)
-        WHERE n < 20
+                n + 1, 
+                next_value, 
+                current_value + next_value
+            FROM 
+                fibonacci
+            -- limit the number of rows (the series is infinite)
+            WHERE n < 20
     )
 )
 SELECT n AS natural_number, current_value AS fibonacci_number
