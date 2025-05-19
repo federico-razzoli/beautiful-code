@@ -107,3 +107,15 @@ We could have used `product` instead, but this function is lazy. As a consequenc
 high values of `a` it is subject to stack overflow. If you don't know what this means, ask
 Stack Overflow.
 
+## Factory Pattern
+
+```
+factory :: a -> (a -> b) -> (a -> b) -> a -> b
+factory condition f1 f2 input =
+  if condition
+    then f1 input
+    else f2 input
+```
+
+`f1` and `f2` can be any type.
+
