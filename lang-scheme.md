@@ -46,3 +46,13 @@ A variadic function without arguments is like HAL9000 at the end of its life:
 
 `'()` is a syntax sugar for `(quote ())`, which means "this is data, not code".
 
+## Factory Design Pattern
+
+```
+(define (factory condition f1 f2)
+  (lambda (input)
+    (if condition
+        (f1 input)
+        (f2 input))))
+```
+
