@@ -12,6 +12,7 @@ In this repository I'm collecting code that seems to me beautiful.
 
 * __Beautiful [SQL](lang-sql.md)__
 * __Beautiful [Haskell](lang-haskell.md)__
+* __Beautiful [Python](lang-python.md)__
 * __Beautiful [Scheme](lang-scheme.md)__
 
 
