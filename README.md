@@ -15,7 +15,7 @@ In this repository I'm collecting code that seems to me beautiful.
 * __Beautiful [Python](lang-python.md)__
 * __Beautiful [Scheme](lang-scheme.md)__
 
-* __Beautiful [Manuals](b-manuals.md)__
+* __[Beautiful Manuals](b-manuals.md)__
 
 
 ## Copyright and License
