@@ -32,3 +32,11 @@ Left-rotating a list:
 lst_rotated = lst[1:] + [lst[0]]
 ```
 
+## Reversing Lists
+
+```
+lst = lst(a[::-1])
+```
+
+This equally works with strings and tuples.
+
