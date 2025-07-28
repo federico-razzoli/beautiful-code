@@ -21,7 +21,8 @@ In this repository I'm collecting code that seems to me beautiful.
 ## Copyright and License
 
 Legislations mostly forbid public domain, so I must retain intellectual property on this work.
-For a definition of property that doesn't include the right to give it away.
+However, "property" is not a correct term: if I were the owner, I'd have the right to give up
+my property and no one could object.
 
 Copyright: Federico Razzoli <federico.razzoli@vettabase.com> - 2025
 
