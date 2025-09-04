@@ -69,3 +69,11 @@ SELECT node_id
 ;
 ```
 
+## Find Ranges by Point
+
+```
+... WHERE '1994-01-01 00:00:00' BETWEEN start_timestamp AND end_timestamp
+```
+
+Unfortunately, some DBMSs don't optimise this properly.
+
