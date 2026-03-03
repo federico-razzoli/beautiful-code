@@ -18,6 +18,11 @@ In this repository I'm collecting code that seems to me beautiful.
 * __[Beautiful Manuals](b-manuals.md)__
 
 
+## More (external links)
+
+* [Black Perl](https://en.wikipedia.org/wiki/Black_Perl)
+
+
 ## Copyright and License
 
 Legislations mostly forbid public domain, so I must retain intellectual property on this work.
